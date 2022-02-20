@@ -34,6 +34,7 @@ public class BuscarSubcadenas
 		while(subcad.length() > cadPpal.length())
 		{
 			System.out.println("La subcadena no puede ser m�s larga que la cadena principal.\nIntroduzca una nueva cadena:");
+			subcad = input.nextLine();
 			subcad = verificarSubcadena(subcad, cadPpal);
 		}
 		return subcad;
